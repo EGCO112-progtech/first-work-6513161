@@ -4,3 +4,6 @@ argument: main.c
 
 run: $(DEPS)
 	./$(DEPS)
+
+clean: $(DEPS)
+	rm $(DEPS)
